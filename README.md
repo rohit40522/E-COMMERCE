@@ -108,3 +108,6 @@ E-COMMERCE/
 ├── package.json                       # Project-level dependencies and scripts
 └── README.md                          # Project documentation
 
+$ gitignore                         # Files and folders to ignore in Git
+├── package.json                       # Project-level dependencies and scripts
+└── README.md 
