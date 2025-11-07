@@ -89,20 +89,36 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
    cd ../frontend
    cp .env.example .env
    
-&nbsp Edit the ``.env`` file with your congigurations:  
-   ```bash
-   MONGODB_URI= enter your mongodb uri
-   PORT=3000
-   APP_URL=http://localhost:3000/
-   NODE_ENV= development
+## Edit the ``.env`` file with your congigurations:  
+    ```bash
+     MONGODB_URI= enter your mongodb uri
+     PORT=3000
+     APP_URL=http://localhost:3000/
+     NODE_ENV= development
 
 ## Running the Application**
 1. Start the Backend Server
    ```bash
    cd backend
    npm run server
-The backend server will run on ``http://localhost:3000``
+## The backend server will run on ``http://localhost:3000``
 2. Start the frontend
+   ```bash
+   cd frontend
+   rpm run dev
+3. Access the application Open your Browser and navigate to
+   ``http://localhost:5173``
+
+
+    # 🌐 Live Deployment
+   The application is deployed and accessible at the following URLs:
+   - **FRONTEND** : https://e-commerce-frontend-28sj.onrender.com
+   - **BACKEND API** : https://e-commerce-backend-eado.onrender.com
+  
+# Deployment Details
+- **Frontend**: Deployed on Vercel for fast, global CDN delivery  
+- **Backend**: Deployed on Render with automatic deployments from the main branch  
+- **Database**: MongoDB Atlas cloud database for reliable data storage  
 
     
         
