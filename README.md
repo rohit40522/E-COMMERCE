@@ -40,32 +40,14 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
 
 ## 🧱 Project Structure
 
-E-COMMERCE/
+E-COMMERCE/  
 ├── backend/                           # Server-side application  
 │   ├── server.js                      # Entry point for backend (Express server setup)  
-│   ├── config/                        # Configuration files  
-│   │   ├── cloudinary.js              # Cloudinary setup for image uploads  
-│   │   └── mongodb.js                 # MongoDB connection setup  
-│   ├── controllers/                   # Business logic for each route  
-│   │   ├── cartController.js          # Handles cart operations  
-│   │   ├── orderController.js         # Manages order creation and status  
-│   │   ├── productController.js       # Handles product CRUD operations  
-│   │   └── userController.js          # Handles authentication and user data  
+│   ├── config/                        # Database and app configuration
+│   ├── controllers/                   # Route controllers  
 │   ├── middleware/                    # Middleware for request handling  
-│   │   ├── adminAuth.js               # Protects admin-only routes  
-│   │   ├── auth.js                    # Verifies JWT tokens for users  
-│   │   └── multer.js                  # Handles image uploads before Cloudinary  
-│   ├── models/                        # MongoDB schema definitions  
-│   │   ├── userModel.js               # User schema  
-│   │   ├── productModel.js            # Product schema  
-│   │   ├── orderModel.js              # Order schema  
-│   │   └── cartModel.js               # Cart schema  
+│   ├── models/                        # MongoDB schema definitions   
 │   ├── routes/                        # API endpoint definitions  
-│   │   ├── userRoutes.js              # User-related routes (auth, profile)  
-│   │   ├── productRoutes.js           # Product listing and management routes  
-│   │   ├── orderRoutes.js             # Order placement and tracking routes  
-│   │   ├── cartRoutes.js              # Shopping cart routes  
-│   │   └── adminRoutes.js             # Admin control routes  
 │   ├── uploads/                       # Temporary file storage for uploads  
 │   └── .env                           # Environment variables (keys, DB URI, etc.)  
 │  
@@ -77,29 +59,7 @@ E-COMMERCE/
 │   │   ├── Context/                   # Global state management  
 │   │   │   └── ShopContext.jsx        # Handles cart, product, and user state  
 │   │   ├── Components/                # Reusable UI components  
-│   │   │   ├── BestSeller.jsx         # Displays top-selling products  
-│   │   │   ├── CartTotal.jsx          # Shows cart total and checkout summary  
-│   │   │   ├── Footer.jsx             # Footer section  
-│   │   │   ├── Hero.jsx               # Homepage hero banner  
-│   │   │   ├── LatestCollection.jsx   # Displays newly added products  
-│   │   │   ├── Navbar.jsx             # Navigation bar with links and cart icon  
-│   │   │   ├── NewsLetterBox.jsx      # Newsletter subscription section  
-│   │   │   ├── OurPolicy.jsx          # Store policy highlights  
-│   │   │   ├── ProductItem.jsx        # Single product card  
-│   │   │   ├── RelatedProducts.jsx    # Suggests similar items on product page  
-│   │   │   ├── SearchBar.jsx          # Search component for products  
-│   │   │   └── Title.jsx              # Reusable section header component  
 │   │   ├── Pages/                     # Page components for routes  
-│   │   │   ├── Home.jsx               # Homepage layout  
-│   │   │   ├── Collection.jsx         # Product collection/category page  
-│   │   │   ├── Product.jsx            # Single product detail page  
-│   │   │   ├── Cart.jsx               # Shopping cart page  
-│   │   │   ├── PlaceOrder.jsx         # Order placement/checkout page  
-│   │   │   ├── Order.jsx              # Displays user order history  
-│   │   │   ├── Login.jsx              # User login/register page  
-│   │   │   ├── Verify.jsx             # Payment/order verification page  
-│   │   │   ├── About.jsx              # About the business  
-│   │   │   └── Contact.jsx            # Contact form page  
 │   ├── public/                        # Static assets (icons, favicon, etc.)  
 │   ├── package.json                   # Frontend dependencies and scripts  
 │   └── vite.config.js                 # Vite configuration  
@@ -107,7 +67,3 @@ E-COMMERCE/
 ├── .gitignore                         # Files and folders to ignore in Git  
 ├── package.json                       # Project-level dependencies and scripts  
 └── README.md                          # Project documentation  
-  
-$ gitignore                         # Files and folders to ignore in Git  
-├── package.json                       # Project-level dependencies and scripts  
-└── README.md 
