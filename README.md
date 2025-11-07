@@ -77,7 +77,32 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
 
 ## Installation
 1. **Clone the repository**
-2.        git clone <repository-url>
-          cd URL\ Shortener
+   ```bash
+     git clone <repository-url>
+     cd URL\ Shortener
+2. **Install backend dependencies**
+    ```bash
+   cd backend
+   npm insttall
+3. **Install frontend dependencies **
+   ```bash
+   cd ../frontend
+   cp .env.example .env
+## Edit the ``.env`` file with your congigurations:
+    ```bash
+    MONGODB_URI= enter your mongodb uri
+    PORT=3000
+    APP_URL=http://localhost:3000/
+    NODE_ENV= development
+
+##Running the Application**
+1. Start the Backend Server
+   ```bash
+   cd backend
+   npm run server
+The backend server will run on ``http://localhost:3000``
+2. Start the frontend
+
+    
         
 
