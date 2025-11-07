@@ -3,16 +3,16 @@ A full-stack e-commerce application built with React, Express.js, and MongoDB.
 Browse products, manage your shopping cart, place orders, and make secure purchases with user authentication and an admin dashboard for managing products and orders.
 
 ## 🚀 Features
-Product Management: Browse, search, and filter products by category, price, or name.
-User Authentication: Secure signup and login system using JWT-based authentication.
-Shopping Cart: Add, update, and remove products from your cart seamlessly.
-Order Placement: Place and manage orders with order history tracking.
-Admin Dashboard: Admins can add, edit, or delete products and view all user orders.
-Image Upload: Product images stored securely using Cloudinary.
-Authorization: Protected routes for both users and admins.
-Responsive Design: Optimized UI for both desktop and mobile devices.
-Contact Form: Users can send inquiries directly via the contact page.
-Notifications: Real-time toast alerts for user actions (add to cart, login, checkout, etc.).
+Product Management: Browse, search, and filter products by category, price, or name.  
+User Authentication: Secure signup and login system using JWT-based authentication.  
+Shopping Cart: Add, update, and remove products from your cart seamlessly.  
+Order Placement: Place and manage orders with order history tracking.  
+Admin Dashboard: Admins can add, edit, or delete products and view all user orders.  
+Image Upload: Product images stored securely using Cloudinary.  
+Authorization: Protected routes for both users and admins.  
+Responsive Design: Optimized UI for both desktop and mobile devices.  
+Contact Form: Users can send inquiries directly via the contact page.  
+Notifications: Real-time toast alerts for user actions (add to cart, login, checkout, etc.).  
 
 # 🛠️ Tech Stack
 
