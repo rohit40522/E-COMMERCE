@@ -80,22 +80,23 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
    ```bash
      git clone <repository-url>
      cd URL\ Shortener
-2. **Install backend dependencies**
+2. **Install backend dependencies**  
     ```bash
    cd backend
    npm insttall
-3. **Install frontend dependencies **
+3. **Install frontend dependencies **  
    ```bash
    cd ../frontend
    cp .env.example .env
-## Edit the ``.env`` file with your congigurations:
-    ```bash
-    MONGODB_URI= enter your mongodb uri
-    PORT=3000
-    APP_URL=http://localhost:3000/
-    NODE_ENV= development
+   
+&nbsp Edit the ``.env`` file with your congigurations:  
+   ```bash
+   MONGODB_URI= enter your mongodb uri
+   PORT=3000
+   APP_URL=http://localhost:3000/
+   NODE_ENV= development
 
-##Running the Application**
+## Running the Application**
 1. Start the Backend Server
    ```bash
    cd backend
