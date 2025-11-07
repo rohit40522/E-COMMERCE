@@ -75,7 +75,7 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
   - **npm** or **yarn**  
   - **MongoDB**(local installation or MongoDB Atlas)
 
-# Installation
-1. Clone the  Repository
-       git clone <repository-url>
-       cd E-Commerce
+## Installation
+1. **Clone the repository**
+        
+
