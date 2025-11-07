@@ -18,13 +18,13 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
 
 ## Frontend
 
-**React 19** – Modern JavaScript library for building interactive UIs
-**Vite** – Next-generation build tool and fast development server
-**TailwindCSS 4** – Utility-first CSS framework for responsive design
-**Axios** – Promise-based HTTP client for API communication
-**React Toastify** – Beautiful and customizable toast notifications
-**React Router DOM** – Client-side routing for smooth navigation
-**Context API** – Global state management for cart and user data
+**React 19** – Modern JavaScript library for building interactive UIs  
+**Vite** – Next-generation build tool and fast development server  
+**TailwindCSS 4** – Utility-first CSS framework for responsive design  
+**Axios** – Promise-based HTTP client for API communication  
+**React Toastify** – Beautiful and customizable toast notifications  
+**React Router DOM** – Client-side routing for smooth navigation  
+**Context API** – Global state management for cart and user data  
 
 ## Backend
 **Node.js** – JavaScript runtime for server-side logic  
@@ -40,30 +40,39 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
 
 ## 🧱 Project Structure
 
-E-COMMERCE/  
-├── backend/                           # Server-side application  
-│   ├── server.js                      # Entry point for backend (Express server setup)  
-│   ├── config/                        # Database and app configuration
-│   ├── controllers/                   # Route controllers  
-│   ├── middleware/                    # Middleware for request handling  
-│   ├── models/                        # MongoDB schema definitions   
-│   ├── routes/                        # API endpoint definitions  
-│   ├── uploads/                       # Temporary file storage for uploads  
-│   └── .env                           # Environment variables (keys, DB URI, etc.)  
-│  
-├── frontend/                          # Client-side application  
-│   ├── src/                           # React source files  
-│   │   ├── App.jsx                    # Main app component defining routes  
-│   │   ├── main.jsx                   # React entry point with router and context  
-│   │   ├── index.css                  # Global styles  
-│   │   ├── Context/                   # Global state management  
-│   │   │   └── ShopContext.jsx        # Handles cart, product, and user state  
-│   │   ├── Components/                # Reusable UI components  
-│   │   ├── Pages/                     # Page components for routes  
-│   ├── public/                        # Static assets (icons, favicon, etc.)  
-│   ├── package.json                   # Frontend dependencies and scripts  
-│   └── vite.config.js                 # Vite configuration  
-│  
-├── .gitignore                         # Files and folders to ignore in Git  
-├── package.json                       # Project-level dependencies and scripts  
-└── README.md                          # Project documentation  
+    E-COMMERCE/  
+    ├── backend/                           # Server-side application  
+    │   ├── server.js                      # Entry point for backend (Express server setup)  
+    │   ├── config/                        # Database and app configuration
+    │   ├── controllers/                   # Route controllers  
+    │   ├── middleware/                    # Middleware for request handling  
+    │   ├── models/                        # MongoDB schema definitions   
+    │   ├── routes/                        # API endpoint definitions  
+    │   ├── uploads/                       # Temporary file storage for uploads  
+    │   └── .env                           # Environment variables (keys, DB URI, etc.)  
+    │  
+    ├── frontend/                          # Client-side application  
+    │   ├── src/                           # React source files  
+    │   │   ├── App.jsx                    # Main app component defining routes  
+    │   │   ├── main.jsx                   # React entry point with router and context  
+    │   │   ├── index.css                  # Global styles  
+    │   │   ├── Context/                   # Global state management  
+    │   │   │   └── ShopContext.jsx        # Handles cart, product, and user state  
+    │   │   ├── Components/                # Reusable UI components  
+    │   │   ├── Pages/                     # Page components for routes  
+    │   ├── public/                        # Static assets (icons, favicon, etc.)  
+    │   ├── package.json                   # Frontend dependencies and scripts  
+    │   └── vite.config.js                 # Vite configuration  
+    │  
+    ├── .gitignore                         # Files and folders to ignore in Git  
+    ├── package.json                       # Project-level dependencies and scripts  
+    └── README.md                          # Project documentation  
+
+
+# Getting Started
+  ## Prerequisites
+  **Node.js** (v18 or higher)  
+  npm  
+  MongoDB(local installation or MongoDB Atlas)
+
+# Installation
