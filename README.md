@@ -3,7 +3,7 @@ A full-stack e-commerce application built with React, Express.js, and MongoDB.
 Browse products, manage your shopping cart, place orders, and make secure purchases with user authentication and an admin dashboard for managing products and orders.
 
 ## 🚀 Features
-**Product Management** : Browse, search, and filter products by category, price, or name.  
+-**Product Management** : Browse, search, and filter products by category, price, or name.  
 **User Authentication** : Secure signup and login system using JWT-based authentication.  
 **Shopping Cart** : Add, update, and remove products from your cart seamlessly.  
 **Order Placement** : Place and manage orders with order history tracking.  
