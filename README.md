@@ -77,5 +77,7 @@ Browse products, manage your shopping cart, place orders, and make secure purcha
 
 ## Installation
 1. **Clone the repository**
+2.        git clone <repository-url>
+          cd URL\ Shortener
         
 
